@@ -89,24 +89,75 @@ Documentação das perguntas estratégicas testadas no NotebookLM, com as respos
 
 ### Resumos Estruturados
 
-*(a preencher após sessão no NotebookLM)*
+#### 1. O que é IA Generativa e por que líderes precisam entender isso
+IA Generativa é uma categoria de inteligência artificial capaz de criar conteúdo original — textos, imagens, dados, código — a partir de padrões aprendidos em grandes volumes de informação. Diferente da IA tradicional, que classifica ou prevê, a IA generativa **produz**. Para líderes de ecossistemas, isso significa que processos antes dependentes de pessoas — como criação de materiais de onboarding, relatórios de parceiros e comunicações personalizadas — podem ser automatizados com alta qualidade e escala.
+
+#### 2. AI Agents: da automação à orquestração
+AI Agents são sistemas de IA que não apenas respondem perguntas, mas **tomam ações autônomas** em sequência para completar tarefas complexas. Em ecossistemas de parcerias, agentes especializados podem atuar em paralelo: um agente monitora interações com parceiros, outro gera materiais personalizados, outro atualiza dashboards de performance — tudo sem intervenção humana constante. A evolução do gestor de parcerias nesse contexto é sair do "gerenciamento de ferramentas" para o **design de fluxos de trabalho com agentes**.
+
+#### 3. Aplicações práticas em ecossistemas e comunidades B2B
+As principais aplicações identificadas nas fontes estudadas foram:
+- **Onboarding personalizado:** criação automática de playbooks, kits de capacitação e campanhas adaptadas ao perfil de cada parceiro
+- **Monitoramento preditivo:** identificação de atritos e riscos de churn com até 45 dias de antecedência
+- **Bases de conhecimento inteligentes:** redução de 40% nos chamados de suporte
+- **Análise de sentimento:** leitura automática de comunicações para detectar insatisfação precoce
+- **Automação de relatórios:** IA assume até 73% da geração de relatórios, liberando tempo estratégico
+
+#### 4. IA Responsável em relacionamentos com parceiros
+Adotar IA em ecossistemas exige atenção a riscos reais: vieses nos modelos podem gerar decisões discriminatórias, alucinações podem comprometer a confiança com parceiros, e a dependência de poucos fornecedores cria risco de lock-in tecnológico. Líderes precisam equilibrar eficiência com governança — definindo políticas claras de uso de dados, transparência com parceiros e processos de auditoria contínua dos sistemas de IA adotados.
 
 ---
 
 ### Glossário de Conceitos-Chave
 
-*(a preencher após sessão no NotebookLM)*
+| Termo | Definição |
+|-------|-----------|
+| **IA Generativa** | Categoria de IA capaz de criar conteúdo original (texto, imagem, código) a partir de padrões aprendidos |
+| **AI Agent** | Sistema de IA que executa ações autônomas e sequenciais para completar tarefas complexas sem intervenção humana constante |
+| **LLM (Large Language Model)** | Modelo de linguagem de grande escala treinado em enormes volumes de texto; base da maioria das ferramentas de IA generativa atuais |
+| **Prompt** | Instrução ou pergunta fornecida à IA para orientar sua resposta ou ação |
+| **Engenharia de Prompts** | Prática de formular e refinar prompts de forma estratégica para obter respostas mais precisas e úteis da IA |
+| **Fine-tuning** | Processo de ajuste de um modelo de IA com dados específicos de uma empresa para melhorar sua performance em contextos particulares |
+| **Alucinação** | Fenômeno em que a IA gera informações falsas ou inventadas com aparência de veracidade |
+| **Alignment Problem** | Desafio de garantir que os objetivos da IA estejam alinhados aos valores e metas da organização que a utiliza |
+| **Lock-in tecnológico** | Situação de dependência excessiva de um único fornecedor de tecnologia, reduzindo a autonomia da organização |
+| **NPS (Net Promoter Score)** | Métrica que mede a lealdade e satisfação de clientes ou parceiros com base na probabilidade de recomendação |
+| **Churn** | Taxa de abandono ou cancelamento — no contexto B2B, representa parceiros que deixam o ecossistema |
+| **Time-to-Revenue** | Tempo necessário para que uma parceria comece a gerar retorno financeiro efetivo |
+| **Few-shot prompting** | Técnica de prompting em que se fornecem exemplos do resultado esperado para orientar a resposta da IA |
+| **Análise de sentimento** | Técnica de IA que identifica o tom emocional (positivo, negativo, neutro) em textos e comunicações |
+| **Multiagent system** | Sistema composto por múltiplos agentes de IA que colaboram entre si para completar tarefas complexas |
 
 ---
 
 ### Prompts Reutilizáveis para Revisão Futura
 
-*(a preencher após sessão no NotebookLM)*
+Estes prompts foram validados neste caderno e podem ser reutilizados em futuras sessões de estudo ou trabalho profissional:
+
+**Para explorar aplicações práticas:**
+> *"Com base nas fontes, quais são as 3 aplicações mais imediatas de IA generativa para [contexto específico]? Inclua exemplos reais com dados de impacto."*
+
+**Para aprofundar um caso de uso:**
+> *"Cite um exemplo real e detalhado de empresa que aplicou [conceito] em seu ecossistema de parceiros. Quais foram os resultados mensuráveis?"*
+
+**Para identificar riscos:**
+> *"Quais são os principais riscos éticos e operacionais de adotar [tecnologia/prática] em relacionamentos com parceiros B2B? Organize por categoria."*
+
+**Para questionar uma resposta inadequada:**
+> *"A resposta anterior incluiu [elemento X]. No contexto de [contexto específico], esse elemento não se aplica porque [razão]. Proponha uma alternativa mais adequada."*
+
+**Para criar glossário:**
+> *"Liste os 10 termos técnicos mais relevantes das fontes carregadas para um líder não-técnico que trabalha com ecossistemas de parcerias. Defina cada um em linguagem acessível."*
+
+**Para revisão futura:**
+> *"Resuma os principais aprendizados das fontes em 5 pontos essenciais para um líder de parcerias B2B que está começando a adotar IA em seus processos."*
 
 ---
 
 ## 🚀 Sobre a Autora
 
-Profissional em transição para o ecossistema de tecnologia, com bagagem em parcerias B2B, gestão de comunidades executivas e inovação corporativa. Atualmente estudando IA Generativa de forma autodidata em cursos e Bootcamps de instituições como Harvard, Google, Vanderbilt, DIO, Tera e Uberhub Code.
+Profissional com mais de 15 anos de experiência em gestão de ecossistemas, parcerias B2B e comunidades institucionais — com passagem por Amcham Brasil, projetos internacionais e iniciativas de impacto social. Em transição estratégica para o ecossistema de tecnologia, com formação recente em IA Generativa em instituições como Harvard Kennedy School, Google e Vanderbilt University (Coursera).
+
+A aposta desta transição não é abandonar a expertise em parcerias e comunidades — é potencializá-la com fluência em IA.
 
 📩 larissa@larissacruvinel.com.br | [LinkedIn](https://linkedin.com/in/larissa-cruvinel)
