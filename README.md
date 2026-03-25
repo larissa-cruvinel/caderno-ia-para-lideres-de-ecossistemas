@@ -29,42 +29,60 @@ As fontes abaixo foram selecionadas e carregadas no NotebookLM para compor o cad
 ---
 
 ## 🧪 Engenharia de Prompts e "Cicatrizes"
-Documentação das perguntas estratégicas testadas no NotebookLM, variações de prompts e aprendizados do processo.
+
+Documentação das perguntas estratégicas testadas no NotebookLM, com as respostas obtidas, avaliação crítica e variações testadas.
 
 ### Prompt 1
 **Pergunta:** *Como líderes de ecossistemas B2B podem usar AI Agents para automatizar o onboarding de empresas parceiras?*
 
-**Resposta obtida:** *(a preencher após sessão no NotebookLM)*
+**Avaliação:** ✅ Boa resposta — dados concretos e exemplos reais.
 
-**Dificuldades / Troubleshooting:** *(a preencher)*
+**Síntese da resposta:** O NotebookLM identificou 5 estratégias principais: (1) personalização dinâmica via playbooks gerados por IA, aumentando engajamento em 33% e acelerando onboarding em até 60%; (2) orquestração de fluxos de trabalho com agentes autônomos; (3) bases de conhecimento inteligentes reduzindo chamados de suporte em 40%; (4) sistemas multiagentes com papéis especializados (ouvintes e criadores); e (5) monitoramento preditivo capaz de antecipar atritos na parceria com 45 dias de antecedência e 82% de precisão.
+
+**Reformulação testada:** *"Cite um exemplo real de maneira detalhada."*
+
+**Resultado da reformulação:** Resposta muito mais rica. O NotebookLM detalhou o **Rainforest Plan da Alibaba Cloud**, mostrando como a IA foi usada para matchmaking automatizado de parceiros (acelerando desenvolvimento de soluções em 50-70%), gestão preditiva de conflitos via análise de sentimento (melhorando retenção em 28%) e automação de suporte (reduzindo custos operacionais em 40%). Complementou com o caso da **e2open**, que usa IA generativa para criar materiais de capacitação personalizados por perfil de parceiro.
+
+**Aprendizado:** Prompts abertos geram respostas estruturadas mas genéricas. Pedir um exemplo real e detalhado após a primeira resposta é uma técnica eficaz para aprofundar o conteúdo.
 
 ---
 
 ### Prompt 2
-**Pergunta:** *Quais métricas de saúde de comunidade (NPS, retenção, churn) podem ser monitoradas ou aprimoradas com IA Generativa?*
+**Pergunta:** *Quais métricas de saúde de comunidade — como NPS, retenção e churn — podem ser monitoradas ou aprimoradas com IA Generativa?*
 
-**Resposta obtida:** *(a preencher após sessão no NotebookLM)*
+**Avaliação:** ⚠️ Mediana — a resposta incluiu uma métrica inadequada ao contexto B2B.
 
-**Dificuldades / Troubleshooting:** *(a preencher)*
+**Síntese da resposta:** O NotebookLM listou: taxas de retenção com análise preditiva (identificando riscos com 45 dias de antecedência), níveis de engajamento (+33% com personalização), satisfação do cliente, velocidade na resolução de problemas (40% mais rápida) e de forma equivocada satisfação interna de colaboradores.
 
+**Reformulação testada:** *"A última resposta sobre satisfação interna não se aplica a parcerias B2B, mas ao público interno. Justifique sua escolha ou sugira uma substituição."*
+
+**Resultado da reformulação:** O NotebookLM reconheceu o erro e propôs três métricas mais adequadas: (1) **Índice de Esforço do Parceiro** — IA assume 73% da geração de relatórios, economizando 55h/mês por parceiro; (2) **Time-to-Revenue** — tempo 40% mais rápido para geração de receita em joint ventures; (3) **Atrito no Suporte** — 40% menos tickets com bases de conhecimento inteligentes.
+
+**Aprendizado (cicatriz):** A IA nem sempre distingue com precisão o contexto B2B do contexto interno. Questioná-la diretamente — com o raciocínio de por que a resposta não se aplica — gerou uma resposta muito mais pertinente. Pensamento crítico sobre a resposta da IA é tão importante quanto a pergunta em si.
 ---
 
 ### Prompt 3
 **Pergunta:** *Como líderes não-técnicos devem se comunicar com times de engenharia ao propor a adoção de IA em processos de parceria?*
 
-**Resposta obtida:** *(a preencher após sessão no NotebookLM)*
+**Avaliação:** ❌ Confusa — as fontes não tinham material suficiente para responder com precisão.
 
-**Dificuldades / Troubleshooting:** *(a preencher)*
+**Síntese da resposta:** O NotebookLM resgatou conteúdo de contextos adjacentes (UX Design e gestão de produto), como workshops, documentos de requisitos e user flows — úteis em outros cenários, mas não diretamente aplicáveis à comunicação líder-engenharia no contexto de IA para parcerias.
 
+**Reformulação testada:** Nenhuma — a limitação era das fontes, não do prompt.
+
+**Aprendizado (cicatriz):** O NotebookLM responde apenas com base nas fontes carregadas. Quando o tema não está coberto adequadamente no material, ele busca analogias em contextos próximos — o que pode gerar respostas tecnicamente corretas, mas fora do escopo desejado. Para futuras iterações, seria necessário adicionar fontes específicas sobre comunicação técnica e gestão de mudança em projetos de IA.
 ---
 
 ### Prompt 4
 **Pergunta:** *Quais são os riscos éticos e operacionais que líderes de ecossistemas precisam considerar ao adotar IA em relacionamentos com parceiros?*
 
-**Resposta obtida:** *(a preencher após sessão no NotebookLM)*
+**Avaliação:** ✅ Boa resposta — abrangente e bem estruturada.
 
-**Dificuldades / Troubleshooting:** *(a preencher)*
+**Síntese da resposta:** Riscos éticos identificados: vieses e discriminação em modelos de IA, alucinações e geração de informações falsas, toxicidade e violação de direitos autorais. Riscos operacionais: exposição de dados proprietários em processos de fine-tuning, problema de alinhamento entre objetivos da IA e da empresa, dependência de poucos fornecedores (lock-in), imprevisibilidade financeira com modelos de precificação por consumo e vulnerabilidades em cascata em sistemas multiagentes.
 
+**Reformulação testada:** Nenhuma necessária.
+
+**Aprendizado:** Perguntas sobre riscos tendem a gerar respostas mais completas porque o tema está amplamente coberto em literatura de IA responsável — presente em múltiplas fontes carregadas. A qualidade da resposta é diretamente proporcional à cobertura do tema nas fontes.
 ---
 
 ## 📖 Miniguia de Estudo
