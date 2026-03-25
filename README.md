@@ -21,11 +21,13 @@ As fontes abaixo foram selecionadas e carregadas no NotebookLM para compor o cad
 
 | # | Fonte | Instituição | Tipo |
 |---|-------|-------------|------|
-| 1 | The Science and Implications of Generative AI | Harvard Kennedy School | Curso / PDF de anotações |
-| 2 | Generative AI Leader Professional Certificate | Google | Curso / Material de estudo |
-| 3 | Google AI Essentials Specialization | Google | Curso / PDF de anotações |
-| 4 | Agentic AI and AI Agents for Leaders | Vanderbilt University | Curso / Material de estudo |
-| 5 | AI Index Report 2024 | Stanford University (HAI) | Relatório público gratuito — [link](https://aiindex.stanford.edu/report/) |
+| 1 | The Science and Implications of Generative AI | Harvard Kennedy School | Curso — anotações pessoais (método Cornell) |
+| 2 | Generative AI Leader Professional Certificate | Google | Curso — material de estudo |
+| 3 | Google AI Essentials Specialization | Google | Curso — anotações pessoais (método Cornell) |
+| 4 | Agentic AI and AI Agents for Leaders | Vanderbilt University | Curso — material de estudo |
+| 5 | [AI Index Report 2025](https://aiindex.stanford.edu/report/) | Stanford HAI | Relatório público gratuito |
+| 6 | [AI-Powered Strategies for Partner Ecosystem Growth](https://www.data-mania.com/blog/ai-powered-strategies-for-partner-ecosystem-growth/) | Data-Mania | Blogpost |
+| 7 | [Integrating Generative AI Into Enterprise Platforms](https://onlinelibrary.wiley.com/doi/full/10.1111/isj.12593) | Wiley / Information Systems Journal | Artigo acadêmico |
 ---
 
 ## 🧪 Engenharia de Prompts e "Cicatrizes"
